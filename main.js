@@ -1,6 +1,7 @@
 var number = parseInt(prompt('Enter any number'));
-console.log("Given number is " + number);
+console.log("Given number is: " + number);
 var temp = number;
+console.log("Reverse order of given number in words: ");
 while (temp) {
     lastDigit = temp % 10;
     switch (lastDigit) {
